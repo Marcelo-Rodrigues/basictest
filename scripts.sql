@@ -1,9 +1,5 @@
 --liquibase formatted sql
 
---changeset sadequl_hussain:1
-CREATE TABLE [dbo].[customer]
-(
- [id] INT NOT NULL PRIMARY KEY,
- [customer_name] VARCHAR(50) NOT NULL,
- [active] BOOLEAN DEFAULT TRUE
-);
+--changeset criacao:1
+CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+    -> species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
