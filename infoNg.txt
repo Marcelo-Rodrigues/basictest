@@ -1,3 +1,5 @@
+*******env: Path=C:\Users\x\AppData\Roaming\npm
+
 C:\Users\x\AppData\Roaming\npm
 
 *******ng.cmd:
